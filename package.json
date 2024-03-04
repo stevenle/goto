@@ -1,0 +1,23 @@
+{
+  "name": "goto",
+  "version": "1.0.0",
+  "description": "Personal go link service running on firebase hosting.",
+  "keywords": [],
+  "author": "stevenle08@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "root dev",
+    "build": "root build --ssr-only",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@blinkk/root": "1.0.0-rc.7",
+    "preact": "^10.19.2",
+    "preact-render-to-string": "^6.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.4"
+  }
+}
